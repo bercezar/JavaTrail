@@ -7,8 +7,6 @@
 
 ## Sintaxe - Desafio
 
-Vamos exercitar todo o conteúdo apresentado no módulo de Sintaxe codificando o seguinte cenário.
-
 1. Crie o projeto `ContaBanco` que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo:
 2. Dentro do projeto, crie a classe `ContaTerminal.java` para realizar toda a codificação do nosso programa.
 
@@ -31,8 +29,6 @@ Vamos exercitar todo o conteúdo apresentado no módulo de Sintaxe codificando o
 3. Depois de todas as informações terem sido inseridas, o sistema deverá exibir a seguinte mensagem:
 
 ## Controle de Fluxo - Desafio
-
-Vamos exercitar todo o conteúdo apresentado no módulo de Controle de Fluxo codificando o seguinte cenário.
 
 O sistema deverá receber dois parâmetros via terminal que representarão dois números inteiros, com estes dois números você deverá obter a quantidade de interações (for) e realizar a impressão no console (System.out.print) dos números incrementados, exemplo:
 
