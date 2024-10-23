@@ -12,8 +12,6 @@ Com base no vídeo de lançamento do iPhone de 2007 (link abaixo), você deve el
 
 [Lançamento iPhone 2007](https://www.youtube.com/watch?v=9ou608QQRq8)
 
-- Minutos relevantes: 00:15 até 00:55
-
 #### Funcionalidades a Modelar
 
 1. **Reprodutor Musical**
