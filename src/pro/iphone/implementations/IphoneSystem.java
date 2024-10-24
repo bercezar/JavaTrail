@@ -40,27 +40,35 @@ public class IphoneSystem implements Safari, Telephone, Ipod{
     @Override
     public void call(String number) {
         setCurrentNumber(number);
-        System.out.println("Chamando...");
+        if(number != null)
+            System.out.println(String.format("Tel: %s\nChamando...", number));
     }
 
     @Override
     public void answer() {
-        
+        if(getCurrentNumber() != null)
+            System.out.println(String.format("Chamada ativa: %s", getCurrentNumber()));
+        else
+            System.out.println("Sem chamada no momento");
     }
 
     @Override
-    public void startVoicemail() {
-        
+    public void hangUp() {
+        System.out.println("Chamada encerrada.");
     }
 
     // Ipod
     @Override
     public void play() {
-        
+        if(getCurrentSong() != null)
+            System.out.println(String.format("Tocando: %s", getCurrentSong()));
+        else
+            System.out.println("Música não selecioanda");
     }
 
     @Override
     public void pause() {
+        System.out.println("Música pausada");
         
     }
 
@@ -74,15 +82,6 @@ public class IphoneSystem implements Safari, Telephone, Ipod{
     @Override
     public void displayPage(String pageWeb) {
         setCurrentPage(pageWeb);
-    }
-
-    @Override
-    public void refreshPage() {
-        
-    }
-
-    @Override
-    public void addNewTab() {
-
+        System.out.println(String.format("https://www.%s.com/", pageWeb));
     }
 }
